@@ -69,4 +69,4 @@ while (Botscore < 3 && Playerscore < 3){
 while (Botscore < 5 && Playerscore < 5){
     Playerinput(3);
 }
-};
+}
