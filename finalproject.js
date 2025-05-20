@@ -18,7 +18,6 @@ function game(){
     console.log(input, "input");
     guesses = guesses + 1;
         numbers(100);
-    round = round + 1;
 while(i !== input){ 
     if(input > i){
         temp = temp + 1;
