@@ -16,7 +16,6 @@ function game(){
     round = round + 1;
     input = prompt("pick a number 1-100")
     console.log(input, "input");
-    guesses = guesses + 1;
         numbers(100);
 while(i !== input){ 
     if(input > i){
@@ -40,7 +39,7 @@ while(i !== input){
         playing = prompt("Do you want to play agan?  Y/N").toUpperCase();
         break;
     }
-}
+} alert(`The number was ${i}`)
 
 }
 
